@@ -7,6 +7,7 @@ class Solution:
                 h[sortwords]=[word]
             else:
                 h[sortwords].append(word)
+        print(h)
         final=[]
         for value in h.values():
             final.append(value)
